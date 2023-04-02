@@ -1599,3 +1599,26 @@ nav#filter li {
 	  margin-top: 40%;
 	}
   }
+  @media only screen and (max-width: 768px) {
+  .left
+  {
+	float:none;
+	clear: both;
+	padding: 2%;
+	width:98%;
+  }
+  .right{
+	float:none;
+	clear: both;
+	padding: 2%;
+	width:98%;
+  }
+  .member-img {
+	overflow: hidden; 
+	padding: 5px;
+	justify-content: center;
+    display: table-cell;
+	position:relative;
+	height:20%;
+	width:30%
+}
